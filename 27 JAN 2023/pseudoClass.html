@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        /*p.hover{  OR  .hover:hover -->. */
+            /* background-color: black;
+            color: white;
+        }
+        input:focus{
+            color: red;
+            background-color: black;
+            font-size: 25px;
+        } */
+        /* a:hover {
+            color: pink;
+        }
+        a:active{
+            color: brown;
+        } */
+        /* a:visited{
+            color: black;
+        } */
+        /* a:first-child {
+            background-color: yellow;
+        } */
+        /* a:nth-child(2n+1) {
+            background-color: red;
+        } */
+        p::after{
+            content: "-Sushant";
+            color: aqua;
+        }
+        p::before{
+            content: "-Sushant";
+            color: aqua;
+        }
+        p::selection{
+            background-color: black;
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Pseudo Class -->
+    <p class="hover">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, consequuntur.
+    </p>
+    <input type="text" />
+    <hr />
+    <nav>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+    </nav>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur earum voluptates sint ex, magnam doloremque aut, inventore cum officia minus dicta! Consectetur eos iure eligendi tenetur ex omnis ipsam ab veniam in! Amet vel unde, neque dolorem voluptate laboriosam cupiditate dignissimos nam beatae dolorum aliquam, rerum est, molestias omnis modi.
+    </p>
+</body>
+</html>
+

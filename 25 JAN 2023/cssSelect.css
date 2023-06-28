@@ -1,0 +1,27 @@
+/* Des Sel */
+main p{
+    color: red;
+}
+
+/* Child Sel */
+
+h1 > p {
+    color: blue;
+}
+
+/* section + p {
+    color: yellow;
+} */
+
+section ~ p {
+    color: yellow;
+}
+
+[target="_blank"] {
+    color: pink;
+    text-decoration: none;
+}
+
+[alt~="PW"]{
+    background-color: black;
+}

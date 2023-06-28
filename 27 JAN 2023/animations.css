@@ -1,0 +1,74 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    /* animation-fill-mode: forwards; */
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+/* @keyframes colorchange {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+} */
+
+
+/* @keyframes colorchange {
+    from {
+        background-color: blue;
+        top: 0px;
+        left: 0px;
+    }
+    to {
+        background-color: yellow;
+        top: 0px;
+        left: 200px;
+    }
+} */
+
+#ease {
+    animation-timing-function: ease;
+}
+#linear {
+    animation-timing-function: linear;
+}
+#ease-in {
+    animation-timing-function: ease-in;
+}
+#ease-in-out {
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes colorchange {
+    0% {
+        background-color: blue;
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        background-color: yellow;
+        top: 0px;
+        left: 200px;
+    }
+    50% {
+        background-color: black;
+        top: 200px;
+        left: 200px;
+    }
+    75% {
+        background-color: aquamarine;
+        top: 200px;
+        right: 0px;
+    }
+    100% {
+        background-color: violet;
+        top: 0px;
+        left: 0px;
+    }
+}

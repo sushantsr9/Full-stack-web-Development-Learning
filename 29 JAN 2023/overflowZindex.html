@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow And Z-index</title>
+    <style>
+        p {
+            height: 250px;
+            width: 250px;
+            border: solid 2px red;
+            overflow: scroll;
+        }
+        .one {
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            border: 2px solid red;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+        .two {
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <!-- overflow -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum porro cupiditate, voluptate tempore at est velit cumque vero atque cum, hic doloribus eveniet iusto, ratione ullam expedita! Non ipsum asperiores maxime optio doloremque libero voluptas. Corrupti beatae minima recusandae fuga, quae quia dignissimos. Magnam enim, iusto illum consequuntur facere ducimus id reprehenderit mollitia quaerat magni laborum reiciendis quod temporibus veritatis quas libero quibusdam. Id praesentium libero nulla tempore perspiciatis magnam voluptatem nemo, harum totam explicabo! Totam, nihil? Ipsum vero illo magni dolorum ea, provident distinctio doloremque molestiae ad atque quaerat id veritatis, sunt autem quas commodi. Dignissimos a, ratione voluptate molestiae, dolorum odio sit cum, magni commodi nam qui officiis doloremque ipsum error. Ipsam eum hic nulla quisquam non voluptas nemo modi rerum obcaecati quo accusamus nihil, repellendus quis fugit maiores ab, temporibus earum quas! Asperiores qui explicabo voluptatibus? Dolorem consectetur, itaque possimus earum voluptates consequatur rerum! Sint perferendis corrupti autem optio impedit nihil dolores ullam saepe labore in magni accusantium laboriosam?</p>
+    <!-- Z-index -->
+    <div class="one"></div>
+    <div class="two"></div>
+</body>
+</html>

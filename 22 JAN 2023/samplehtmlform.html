@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration form</title>
+</head>
+<body>
+    <!-- Two types of method GET(server read data from URL) and POST -->
+    <form method="get" >
+        <fieldset>
+            <legend>User registration!!</legend>
+            <label for="username">Enter your username: </label>
+            <input type="text" name="username" id="username" value="john" readonly disabled>
+            <br>
+            <label for="useremail">Enter your email: </label>
+            <input type="email" name="useremail" id="useremail" placeholder="a@example.com" autofocus>
+            <br>
+            <label for="userpassword">Enter your password: </label>
+            <input type="password" name="userpassword" id="userpassword">
+            <br>
+            Gender: <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <br>
+            <label for="transgender">Transgender</label>
+            <input type="radio" name="gender" id="transgender" value="transgender">
+            <br>
+            <input type="number" name="" id="">
+            <br>
+            <input type="submit" value="Submit form">
+        </fieldset>
+    </form>
+</body>
+</html>
